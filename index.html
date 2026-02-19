@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NovaTech Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="container nav-wrapper">
+    <h2 class="logo">NovaTech</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Innovating the Future of Digital Solutions</h1>
+    <p>We build powerful, scalable, and user-friendly web experiences.</p>
+    <a href="#" class="btn">Get Started</a>
+  </div>
+</section>
+
+<section class="about">
+  <div class="container">
+    <h2 class="section-title">Who We Are</h2>
+    <p>
+      NovaTech Solutions is a creative digital agency focused on delivering
+      modern, responsive and high-performance web solutions tailored for
+      businesses worldwide.
+    </p>
+    <img src="https://via.placeholder.com/800x400" alt="Our team working together">
+  </div>
+</section>
+
+<section class="interactive">
+  <div class="card">
+    <h2>Stay Connected</h2>
+
+    <button onclick="welcomeUser()">Click Me</button>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="email" id="email" placeholder="Your Email">
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="message" id="formMessage"></div>
+
+    <div class="counter-display" id="counter">0</div>
+    <div class="counter-buttons">
+      <button onclick="increase()">+</button>
+      <button onclick="decrease()">−</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 NovaTech Solutions. All Rights Reserved.
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
