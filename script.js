@@ -1,5 +1,5 @@
 function welcomeUser() {
-  alert("Welcome to NovaTech!");
+  alert("Welcome to IphTech!");
   document.body.style.backgroundColor = "#eef6ff";
 }
 
@@ -16,6 +16,8 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   } else {
     message.style.color = "green";
     message.textContent = "Thank you! We'll contact you soon.";
+    name.reset();
+    email.reset();
   }
 });
 
